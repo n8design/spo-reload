@@ -1,0 +1,42 @@
+:global{
+	div[class^="feedback"]{
+		display: none;
+	}
+}
+
+.statusLabel{
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 600;
+
+	padding: .5em 1em;
+
+	content: "";
+	text-transform: uppercase;
+
+	align-self: flex-end;
+}
+
+.statusBar{
+	display: flex;
+
+	height: 32px;
+
+	border-top: 1px silver solid;
+
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.button{
+	display: inline-block;
+
+	width: 16px;
+	height: 16px;
+	margin: 1em;
+
+	border-radius: 16px;
+	background: green, linear-gradient(145deg, #fafefe,#d3d5d5);
+	background: linear-gradient(145deg, #0f0, #00e000);
+	box-shadow: 2px 2px 4px #c7c9c9,
+	-2px -2px 4px #fff;;
+}
