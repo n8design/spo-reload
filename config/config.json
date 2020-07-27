@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spo-live-reload-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/spoLiveReload/SpoLiveReloadApplicationCustomizer.js",
+          "manifest": "./src/extensions/spoLiveReload/SpoLiveReloadApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpoLiveReloadApplicationCustomizerStrings": "lib/extensions/spoLiveReload/loc/{locale}.js"
+  }
+}

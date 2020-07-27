@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="SpoLiveReload"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="48e35d0a-7e59-4ec3-b257-db924ba1806b"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>
