@@ -1,14 +1,14 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "spo-reload-client-side-solution",
+    "name": "SharePoint Live Reloader for SPFx",
     "id": "926e47cb-4ae0-493a-8c4b-f722b1eb3396",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
     "isDomainIsolated": false,
     "developer": {
-      "name": "",
-      "websiteUrl": "",
+      "name": "Stefan Bauer",
+      "websiteUrl": "https://n8d.at",
       "privacyUrl": "",
       "termsOfUseUrl": "",
       "mpnId": ""
@@ -29,6 +29,6 @@
     ]
   },
   "paths": {
-    "zippedPackage": "solution/spo-reload.sppkg"
+    "zippedPackage": "solution/spo-live-reload.sppkg"
   }
 }

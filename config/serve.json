@@ -9,7 +9,6 @@
         "48e35d0a-7e59-4ec3-b257-db924ba1806b": {
           "location": "ClientSideExtension.ApplicationCustomizer",
           "properties": {
-            "testMessage": "Test message"
           }
         }
       }
@@ -20,7 +19,6 @@
         "48e35d0a-7e59-4ec3-b257-db924ba1806b": {
           "location": "ClientSideExtension.ApplicationCustomizer",
           "properties": {
-            "testMessage": "Test message"
           }
         }
       }
